@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Путешествие по России</title>
   </head>
   <body class="root">
@@ -17,27 +17,36 @@
             alt="Логотип"
           />
         </a>
-        <ul class="header__lang-links">
-          <li class="header__lang-item">
-            <a class="header__lang-link" href="#">Ru</a>
-          </li>
-          <li class="header__lang-item">
-            <a class="header__lang-link" href="#">En</a>
-          </li>
-        </ul>
+        <nav class="menu">
+          <ul class="header__lang-links">
+            <li class="header__lang-item">
+              <a class="header__lang-link" href="#">Ru</a>
+            </li>
+            <li class="header__lang-item">
+              <a class="header__lang-link" href="#">En</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">
-        Какие современные и эффективные подходы к обучению вы можете
-        использовать в своей жизни?
-        <a class="header__link" href="#"> Узнать&nbsp;→ </a>
-      </p>
-      <img
-        class="header__main-illustration"
-        src="./images/header-image.png"
-        alt="Иллюстрация Опять двойка"
-      />
-      <div class="header__square-pic rotation"></div>
     </header>
+    <main class="content">
+      <section class="lead">
+        <h1 class="lead__title">Путешествия по России</h1>
+        <p class="lead__subtitle">
+          Настоящая страна не в выпусках новостей, а здесь.
+        </p>
+        <figure class="lead__item">
+          <img
+            class="lead__image"
+            src="./image/lead-polka.jpg"
+            alt="Женщина едет в поезде на нижней, боковой, полке, а за окном необъятная Россия"
+          />
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
+      </section>
+      <section class="intro">
+        
+      </section>
+    </main>
   </body>
 </html>
