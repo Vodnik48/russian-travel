@@ -8,13 +8,19 @@
     text-align: center;
     color: #FFFFFF;
     padding-top: 32px;
+    padding-bottom: 64px;
 }
-
+@media screen  and (max-width: 1279px) {
+   .lead__subtitle {
+    padding-bottom: 56px;
+   }
+}
 @media screen and (max-width: 767px) {
     .lead__subtitle {
         max-width: 288px;
         font-size: 16px;
         line-height: 20px;
         padding-top: 16px;
+        padding-bottom: 40px;
     }
 }
