@@ -1,0 +1,9 @@
+.place {
+    display: grid;
+    padding-bottom: 80px;
+    grid-template-rows: minmax(min-content, max-content) minmax(460px,1fr);
+    grid-template-columns: minmax(460px,1fr) minmax(min-content, max-content);
+}
+.place:last-of-type {
+    padding-bottom: 0;
+}
