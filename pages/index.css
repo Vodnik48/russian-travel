@@ -36,3 +36,8 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__coopyright/footer__coopyright.css);
