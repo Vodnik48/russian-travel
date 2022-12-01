@@ -1,0 +1,16 @@
+.footer__coopyright {
+font-family: 'Inter', Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+    .footer__coopyright {
+        line-height: 14px;
+        padding-top: 48px;
+    }
+    }
+    
