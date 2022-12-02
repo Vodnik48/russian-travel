@@ -1,12 +1,19 @@
 .footer__content {
     list-style-type: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    gap: 0 18px;
+    justify-items: start;
+    justify-content: flex-start;
     margin: 0;
     padding: 0;
 
 }
 @media screen and (max-width: 767px) {
     .footer__content {
-        flex-direction: column;
+        grid-template-columns: none;
+        grid-template-rows: repeat(5, max-content);
+        gap: 32px 0;
+        align-content: space-between;
     }
 }

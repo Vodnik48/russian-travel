@@ -1,14 +1,24 @@
 .places {
-    max-width: 1280px;
-    padding-top: 92px;
+    max-width: calc(100% - 148*2);
+    margin: 92px 148px 0;
+}
+@media screen and (max-width: 1279px) {
+    .places {
+        margin-right: 48px;
+        margin-left: 48px;
+    }
 }
 @media screen and (max-width: 1023px) {
     .places {
-        padding-top: 88px;
+        margin-right: 48px;
+        margin-left: 48px;
+        margin-top: 88px;
     }
 }
 @media screen and (max-width: 767px) {
     .places {
-        padding: 64px 0  0;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 64px;
     }
 }
