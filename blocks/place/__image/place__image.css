@@ -1,10 +1,6 @@
 .place__image {
+    display: block;
     max-width: 100%;
     grid-row: 2;
-}
-
-@media screen and (max-width: 767px) {
-    .place__image {
-        max-width: 100%;
-    }
+    object-fit: cover;
 }
